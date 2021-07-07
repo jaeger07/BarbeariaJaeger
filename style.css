@@ -12,6 +12,7 @@ header {
 	.caixa {
 		width: 80%;
 		margin: auto;
+		display: flex;
 		justify-content: space-between;
 		
 	}
@@ -89,11 +90,22 @@ footer {
 		
 		.copyright {
 			color: #FFFFFF;
-			font-size: 13px;
+			font-size: 18px;
 			margin: 20px 0 ;
 		}
 		.link-contato {
 			color: white;
+			font-size: 22px;
+		}
+		
+		footer a:hover>i {
+			animation: spin 1s;
+		}
+
+		@keyframes spin {
+			to {
+				transform: rotate(-360DEG);
+			}
 		}
 
 		
