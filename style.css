@@ -79,15 +79,26 @@ nav{
 				padding-bottom: 1em;
 			}
 footer {
-	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 	background: url("bg.jpg");
-	padding: 40px 0;
+	padding: 30px 0 20px 0;
 }
-		
-		.copyright {
+		.logoFooter {
+			display: inline-block;
+			width: 140px;
+		}
+
+		.contatoFooter {
 			color: #FFFFFF;
 			font-size: 18px;
+			display: inline-block;
+			text-align: center;
+		}
+		.copyright {
 			margin: 20px 0 ;
+
 		}
 		.link-contato {
 			color: white;
@@ -174,7 +185,7 @@ footer {
 
 .mapa {
 	padding-bottom: 20px;
-	margin: 0 auto;
+	margin: 20px auto;
 	border-radius: 15px;
 	border: 2px solid white;
 	max-width: 700px;
@@ -192,12 +203,13 @@ footer {
 	}
 	.nav-list{
 		position: absolute;
-		top:82px;
+		top:81px;
 		right: 0;
 		width: 30vw;
-		height: 300px;
+		height: 250px;
 		background: url(bg.jpg);
 		border: 2px solid #fff;
+		border-radius: 20px;
 		flex-direction: column;
 		align-items: center;
 		justify-content: space-around;
