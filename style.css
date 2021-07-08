@@ -421,6 +421,9 @@ td, th {
 	font-size: 5vw;
 	font-weight: bold;
 	}
+	.produtos li:hover > h2 {
+		font-size: 8vw;
+	}
 
 	.produto-descricao {
 	width: 80%;
