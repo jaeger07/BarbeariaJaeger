@@ -266,6 +266,11 @@ nav{
 @media screen and (max-width: 650px) {
 	#logo {
 		font-size: 4ch;
+		font-family: fantasy;
+	}
+	.contatoFooter {
+		font-size: 15px;
+		
 	}
 	
 }
