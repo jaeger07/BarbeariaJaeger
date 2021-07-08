@@ -264,7 +264,7 @@ nav{
 }
 
 @media screen and (max-width: 650px) {
-	#logo {
+	.logo {
 		font-size: 4ch;
 		font-family: fantasy;
 	}
@@ -301,7 +301,7 @@ nav{
 	width: 28%;
 	vertical-align: top;
 	margin: 0 1.5%;
-	padding: 30px 20px;
+	padding: 30px 10px;
 	box-sizing: border-box;
 	border: 2px solid #000000;
 	border-radius: 10px;
@@ -318,19 +318,22 @@ nav{
 .produtos li:hover h2 {
 	font-size: 32px;
 }
-.img-produto {
-	width: 90%;
-}
-
 .produtos h2 {
 	font-size: 30px;
 	font-weight: bold;
+	margin: 0 auto;
 }
-
+.img-produto {
+	width: 90%;
+}
 .produto-descricao {
 	width: 100%;
 	font-size: 18px;
 	color: #000000;
+}
+.produto-descricao em {
+	font-family: fantasy;
+	font-weight: 500;
 }
 
 .produto-preco {
