@@ -116,6 +116,7 @@ footer {
 	.link-contato {
 		color: white;
 		font-size: 22px;
+		display: inline-block;
 	}
 	
 	footer a:hover>i {
@@ -404,7 +405,6 @@ td, th {
 	font-size: 9vw;
 	font-weight: 600;
 	font-family: fantasy;
-
 	}
 	.contatoFooter {
 	font-size: 16px;
@@ -423,14 +423,26 @@ td, th {
 	}
 
 	.produto-descricao {
-	width: 100%;
+	width: 80%;
 	font-size:4vw;
 	color: #000000;
 	}
 	.produto-preco {
 		font-size: 4vw;
-		padding: 10px 0;
 		font-weight: bold;
+		padding: 10px 0;
+		bottom: 0;
+	}
+	footer{
+		padding-bottom: 0;
+	}
+	.link-contato{
+		margin: 5px 0;
+	}
+	.copyright {
+		margin: 10px 0 ;
+		font-size: 10px;
+		
 	}
 }
 
