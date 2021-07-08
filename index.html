@@ -4,7 +4,6 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width">
 		<title>Barbearia Jaeger</title>
-
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
@@ -12,29 +11,22 @@
 	<body>
 
 	<header>
-		<div class="caixa">
-			<em class="logo"> Barbearia Jaeger</em>
-			
-			<nav class="menu-button">
-				
-				<label class="menu-trigger"><input type="checkbox" id="botao">
-					<i class="fas fa-bars" aria-hidden="true"></i></label>
-			
-			
-
-				<ul class="menu" id="menu-id">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="produtos.html">Produtos</a></li>
-					<li><a href="contato.html">Contato</a></li>
-				</ul>
-			</nav>
-
-		</div>
+		<nav>
+			<h1 class="logo">Barbearia Jaeger</h1>
+			<div class="mobile-menu">
+				<div class="line1"></div>
+				<div class="line2"></div>
+				<div class="line3"></div>
+			</div>
+			<ul class="nav-list">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="produtos.html">PRODUTOS</a></li>
+				<li><a href="contato.html">CONTATO</a></li>
+			</ul>
+		</nav>
 	</header>
-
-		<img class="banner" src="banner.jpg">
-
-	<main>
+		<main>
+		<img class="banner" src="banner.jpg" alt="">
 		<section class="sobre">
 			<h2 class="titulo-principal">Sobre a Barbearia Jaeger</h2>
 		
@@ -82,5 +74,6 @@
 	</footer>
 
 		<script src="https://kit.fontawesome.com/ad376b065c.js" crossorigin="anonymous"></script>
+		<script src="mobile-navbar.js"></script>
 	</body>
 </html>
