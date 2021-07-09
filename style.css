@@ -376,6 +376,7 @@ td, th {
 	body {
 	overflow-x: hidden;
 	}
+	
 	.nav-list{
 	position: absolute;
 	top:81px;
@@ -398,30 +399,41 @@ td, th {
 	.mobile-menu {
 	display: block;
 	}
+	.sobre {
+		width: 80%;
+
+	}
+		.sobre p {
+			width: 90%;
+		}
 
 	.beneficios {	
 	display: block;
-
 	}	
-	.lista-beneficios { 
-	width: 80%;
-	margin: 10%;
-
-	}
-	.itens {
-	padding-left: 15%;
-	}
-	.imagem-beneficios{
-	display: none;
-	}
+		.lista-beneficios { 
+		width: 80%;
+		margin: 10%;
+		background: top/100% url(beneficios-mobile.jpg);
+		}
+		.itens {
+		padding-left: 15%;
+		text-align: left;
+		}
+		.itens:first-child {
+		padding-left: 18%;
+		text-align: left;
+		}
+		.imagem-beneficios{
+		display: none;
+		}
 	.video{
 	border: none;
-	margin-bottom: 0;
 	}
 
 	.mapa{
 	border: none;
 	margin: 0 auto;
+	margin: 0 10%;
 	}
 }
 
@@ -433,10 +445,6 @@ td, th {
 	}
 	.contatoFooter {
 	font-size: 16px;
-	}
-	.copyright {
-	font-size:	13px;
-
 	}
 	.produtos h2 {
 	font-size: 5vw;
@@ -468,6 +476,10 @@ td, th {
 		font-size: 10px;
 		
 	}
+	.video {
+	margin: 0 10%;
+	}
+	
 }
 
 
