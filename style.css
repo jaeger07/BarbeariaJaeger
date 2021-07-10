@@ -384,7 +384,7 @@ td, th {
 	right: 0;
 	width: 40vw;
 	max-width: 240px;
-	height: 80vw;
+	height: 60vw;
 	max-height: 300px;
 	background: url(bg.jpg);
 	border: 2px solid #fff;
@@ -400,7 +400,7 @@ td, th {
 	opacity: 0;
 	}
 	.nav-list li a{
-	font-size: 6vw;
+	font-size: 4vw;
 	
 	}
 	.mobile-menu {
