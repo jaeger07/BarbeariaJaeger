@@ -4,7 +4,7 @@ nav{
 	justify-content: space-around;
 	align-items: center;
 	font-family: fantasy;
-	background: url(bg.jpg);
+	background: url(./imagens/bg.jpg);
 	height: 80px;
 	border-bottom: 2px solid rgba(0, 206, 209, 0.787);
 	box-shadow: 2px 2px 6px darkturquoise;
@@ -81,7 +81,7 @@ background: linear-gradient(
 	to bottom,
 	rgba(0, 0, 0, .6),
 	rgba(0,0,0, .8)
-	), center/100% url(red-brick-es.jpg);
+	), center/100% url(./imagens/red-brick-es.jpg);
 }
 .titulo-principal {
 	color: #fff;
@@ -101,7 +101,7 @@ footer {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	background: url("bg.jpg");
+	background: url("./imagens/bg.jpg");
 	padding: 30px 0 20px 0;
 	border-top: 2px solid darkturquoise;
 	box-shadow: -2px -2px 15px darkturquoise;
@@ -292,7 +292,7 @@ footer {
 	border: 2px solid #000000cc;
 	border-radius: 15px;
 	box-shadow: 1px 3px 6px;
-	background: url(bg.jpg);
+	background: url(./imagens/bg.jpg);
 	padding: 15px 0;
 	cursor: pointer;
 	color: rgb(50, 232, 235);
@@ -308,7 +308,7 @@ footer {
 
 /* FORMULÁRIO*/
 .main-contato {
-	background: center/100% url(banner.jpg);
+	background: center/100% url(./imagens/banner.jpg);
 }
 
 form {
@@ -384,7 +384,7 @@ td, th {
 	max-width: 240px;
 	height: 60vw;
 	max-height: 300px;
-	background: url(bg.jpg);
+	background: url(./imagens/bg.jpg);
 	border: 2px solid #fff;
 	border-radius: 20px;
 	flex-direction: column;
@@ -420,7 +420,7 @@ td, th {
 		.lista-beneficios { 
 		width: 80%;
 		margin: 10%;
-		background: top/100% url(beneficios-mobile.jpg);
+		background: top/100% url(./imagens/beneficios-mobile.jpg);
 		}
 		.itens {
 		padding-left: 15%;
